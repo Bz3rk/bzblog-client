@@ -11,7 +11,7 @@ const CreateBlogPage = () => {
   const navigate = useNavigate();
 
   const { data: topics, isLoading } = useFetch(
-    "http://localhost:8000/api/topic-list/"
+    "https://bzblog-server.onrender.com/api/topic-list/"
   );
 
   const prevSubmit = (e) => {

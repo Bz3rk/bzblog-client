@@ -1,7 +1,7 @@
 import axios from "axios";
 import { TOKEN } from "./constant";
 
-const apiUrl = "http://127.0.0.1:8000/api/";
+const apiUrl = "https://bzblog-server.onrender.com/api/";
 
 const api = axios.create({
   baseURL: apiUrl,
